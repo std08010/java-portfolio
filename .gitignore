@@ -1,3 +1,7 @@
-.metadata/
-RemoteSystemsTempFiles/
+/.metadata/
+/RemoteSystemsTempFiles/
 /copyrightLog.txt
+*.class
+.project
+.classpath
+.settings/
