@@ -1,3 +1,4 @@
+package code_magnet;
 /*******************************************************************************
  * Copyright (c) 2019 Cipitech, S.A. or its affiliates. All rights reserved.
  *
@@ -6,36 +7,30 @@
  *******************************************************************************/
 
 /**
- * page 58/722
+ * page 54/722
  */
-public class PoolPuzzleOne {
+public class CodeMagnetOne {
 
     public static void main(String[] args) {
-	int x = 0;
+	int x = 3;
 
-	while (x < 4) {
-	    System.out.print("a");
-	    if (x < 1) {
-		System.out.print(" ");
+	while (x > 0) {
+	    if (x > 2) {
+		System.out.print("a");
 	    }
-	    System.out.print("n");
 
-	    if (x > 1) {
-		System.out.print(" oyster");
-		x = x + 2;
+	    if (x == 2) {
+		System.out.print("b c");
 	    }
+
+	    x = x - 1;
+
+	    System.out.print("-");
 
 	    if (x == 1) {
-		System.out.print("noys");
+		System.out.print("d");
+		x = x - 1;
 	    }
-
-	    if (x < 1) {
-		System.out.print("oise");
-	    }
-
-	    System.out.println("");
-
-	    x = x + 1;
 	}
     }
 
