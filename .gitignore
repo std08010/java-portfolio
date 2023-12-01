@@ -2,7 +2,10 @@
 /RemoteSystemsTempFiles/
 /copyrightLog.txt
 *.class
-.project
-.classpath
+*.project
+*.classpath
+*.iml
 .settings/
 bin/
+target/
+.idea/
