@@ -1,5 +1,9 @@
 package com.cipitech.samples.java.examples;
 
+/**
+ * Book: Head First Java
+ * Chapter: 01
+ */
 public class CodeMagnet
 {
 	public static void main(String[] args)

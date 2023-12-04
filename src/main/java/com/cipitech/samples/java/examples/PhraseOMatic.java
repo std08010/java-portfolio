@@ -3,6 +3,9 @@ package com.cipitech.samples.java.examples;
 import java.util.Random;
 
 /**
+ * Book: Head First Java
+ * Chapter: 01
+ * <p>
  * Phrase-O-Matic
  * Make a random sentence
  */

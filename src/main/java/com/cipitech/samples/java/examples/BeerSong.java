@@ -1,6 +1,9 @@
 package com.cipitech.samples.java.examples;
 
 /**
+ * Book: Head First Java
+ * Chapter: 01
+ * <p>
  * the classic children's favorite song "99 bottles of beer"
  */
 public class BeerSong
