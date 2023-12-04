@@ -11,8 +11,8 @@ public class Loops
 	{
 		int x = 1; // declare variable x and assign value 1 to it
 		System.out.println("Before the Loop");
-		while (x < 4)
-		{ // conditional test must be boolean (not integer that is 1 or 0)
+		while (x < 4) // conditional test must be boolean (not integer that is 1 or 0)
+		{
 			// loop code will run because
 			// x is smaller than 4
 			System.out.println("In the loop");
@@ -21,5 +21,12 @@ public class Loops
 			// will fail otherwise we'd loop forever
 		}
 		System.out.println("This is after the loop");
+
+		int z = 27;
+		while (z == 17)
+		{
+			// loop code will not run because z is not equal to 17
+			System.out.println("This will never be printed");
+		}
 	}
 }

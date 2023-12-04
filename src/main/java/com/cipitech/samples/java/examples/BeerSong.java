@@ -17,6 +17,7 @@ public class BeerSong
 
 			beerNum = beerNum - 1;
 
+			//This check must be put after we have removed one bottle
 			if (beerNum == 1)
 			{
 				word = "bottle"; // singular, as in ONE bottle.
