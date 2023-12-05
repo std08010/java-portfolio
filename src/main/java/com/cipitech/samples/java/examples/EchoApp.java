@@ -1,5 +1,9 @@
 package com.cipitech.samples.java.examples;
 
+/**
+ * Book: Head First Java
+ * Chapter: 02
+ */
 public class EchoApp
 {
 	public static void main(String[] args)
