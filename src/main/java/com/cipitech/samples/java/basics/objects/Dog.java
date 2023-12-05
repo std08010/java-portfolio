@@ -1,6 +1,9 @@
 package com.cipitech.samples.java.basics.objects;
 
 /**
+ * Book: Head First Java
+ * Chapter: 02
+ * <p>
  * A class is the blueprint of an object.
  * Objects (aka instances) can have a type of Class
  */

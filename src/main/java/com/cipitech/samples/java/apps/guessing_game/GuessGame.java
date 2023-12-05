@@ -1,37 +1,34 @@
 package com.cipitech.samples.java.apps.guessing_game;
 
+/**
+ * Book: Head First Java
+ * Chapter: 02
+ */
 public class GuessGame
 {
-	// GuessGame has three instance
-	// variables for the three Player
-	// objects
+	// GuessGame has three instance variables for the three Player objects
 	Player p1;
 	Player p2;
 	Player p3;
 
 	void startGame()
 	{
-		// create three Player objects and
-		// assign them to the three Player
-		// instance variables
+		// create three Player objects and assign them to the three Player instance variables
 		p1 = new Player();
 		p2 = new Player();
 		p3 = new Player();
 
-		// declare three variables to hold the
-		// three guesses the Players make
+		// declare three variables to hold the three guesses the Players make
 		int guessp1 = 0;
 		int guessp2 = 0;
 		int guessp3 = 0;
 
-		// declare three variables to hold a true or
-		// false based on the player’s answer
+		// declare three variables to hold a true or false based on the player’s answer
 		boolean p1isRight = false;
 		boolean p2isRight = false;
 		boolean p3isRight = false;
 
-		// make a ‘target’ number that the
-		// players have to guess
+		// make a ‘target’ number that the players have to guess
 		int targetNumber = (int) (Math.random() * 10);
 		System.out.println("I’m thinking of a number between 0 and 9...");
 
