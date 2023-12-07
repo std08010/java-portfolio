@@ -1,4 +1,4 @@
-package com.cipitech.samples.java.apps.guessing_game;
+package com.cipitech.samples.java.apps.games.guess_number;
 
 /**
  * Book: Head First Java
