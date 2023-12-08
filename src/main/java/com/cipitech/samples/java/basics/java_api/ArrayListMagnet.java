@@ -2,6 +2,10 @@ package com.cipitech.samples.java.basics.java_api;
 
 import java.util.ArrayList;
 
+/**
+ * Book: Head First Java
+ * Chapter: 06
+ */
 public class ArrayListMagnet
 {
 	public static void main(String[] args)
