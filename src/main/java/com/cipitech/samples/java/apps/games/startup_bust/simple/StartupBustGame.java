@@ -2,11 +2,13 @@ package com.cipitech.samples.java.apps.games.startup_bust.simple;
 
 import com.cipitech.samples.java.apps.games.startup_bust.GameHelper;
 
+import java.util.ArrayList;
+
 /**
  * Book: Head First Java
- * Chapter: 05
+ * Chapter: 06
  */
-public class SimpleStartupBustGame
+public class StartupBustGame
 {
 	public static void main(String[] args)
 	{
@@ -14,13 +16,16 @@ public class SimpleStartupBustGame
 		int numOfGuesses = 0;
 
 		// Make the Startup object.
-		SimpleStartup theStartup = new SimpleStartup();
+		Startup theStartup = new Startup();
 
-		// Make a random number for the first cell, and use it to make the cell locations array.
+		// Make a random number for the first cell, and use it to make the cell locations.
 		int randomNum = (int) (Math.random() * 5);
-		int[] locations = {randomNum, randomNum + 1, randomNum + 2};
+		ArrayList<String> locations = new ArrayList<>();
+		locations.add(String.valueOf(randomNum));
+		locations.add(String.valueOf(randomNum + 1));
+		locations.add(String.valueOf(randomNum + 2));
 
-		// Give the Startup its locations (the array).
+		// Give the Startup its locations.
 		theStartup.setLocationCells(locations);
 
 		// Make a boolean variable to track whether the game is still alive, to use in the while loop test.
@@ -30,7 +35,7 @@ public class SimpleStartupBustGame
 		while (isAlive)
 		{
 			// Get user guess.
-			int userGuess = GameHelper.getUserInputInt("enter a number");
+			String userGuess = GameHelper.getUserInputString("enter a square");
 
 			// Ask the startup to check the guess. save the returned result.
 			String result = theStartup.checkYourself(userGuess);
