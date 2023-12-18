@@ -2,6 +2,10 @@ package com.cipitech.samples.java.basics.streams;
 
 import java.util.List;
 
+/**
+ * Book: Head First Java
+ * Chapter: 12
+ */
 public class PrintColors
 {
 	public static void main(String[] args)
